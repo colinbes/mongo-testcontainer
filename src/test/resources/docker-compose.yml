@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  redis:
+    image: 'redis:alpine'
+    restart: always
+    ports:
+      - "6379:6379"
+  mongo:
+    image: 'mongo:5.0.20'
+    restart: always
+    ports:
+      - '27017-27019:27017-27019'
+    environment:
+      MONGO_INITDB_DATABASE: bcTest
+      MONGO_INITDB_ROOT_USERNAME: mylocal
+      MONGO_INITDB_ROOT_PASSWORD: example

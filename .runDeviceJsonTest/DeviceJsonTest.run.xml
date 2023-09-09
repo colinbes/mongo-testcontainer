@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DeviceJsonTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" show_console_on_std_err="false" show_console_on_std_out="false">
+    <module name="mongo-scratch" />
+    <option name="allowRunningInParallel" value="false" />
+    <option name="projectPathOnTarget" />
+    <option name="selectedOptions">
+      <list />
+    </option>
+    <option name="testKind" value="Class" />
+    <option name="javaOptions" value="-Dconfig.file=&quot;$PROJECT_DIR$/src/test/resources/application-test.conf&quot;" />
+    <option name="shortenClasspath" value="NONE" />
+    <option name="testClassPath" value="com.abt.tests.device.DeviceJsonTest" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
